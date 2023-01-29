@@ -21,26 +21,26 @@ parse_web_table <- function(link = "", table_number = 1)
 # LET'S TRY TO CATCH EXCEPTIONS
 
 # let's call the function without any arguments 
-parse_web_table()
+# parse_web_table()
 
 # let's call the function with some wrong link (e.g. without any tables)
-parse_web_table("https://twitter.com/teconomics")
+# parse_web_table("https://twitter.com/teconomics")
 
 # let's call the function with some wrong link - 2 (e.g. broken link)
-parse_web_table("tradingeconomics.com/country-list/unemployment-rate?continent=europe")
+# parse_web_table("tradingeconomics.com/country-list/unemployment-rate?continent=europe")
 
 
 # chunk 3
 # LET'S USE THE FUNCTION TO GET DATA
 
 # let's call the function with the desired link
-parse_web_table("https://tradingeconomics.com/country-list/inflation-rate?continent=europe")
+# parse_web_table("https://tradingeconomics.com/country-list/inflation-rate?continent=europe")
 
 # let's call the function with another desired link
-parse_web_table("https://tradingeconomics.com/country-list/unemployment-rate?continent=europe")
+# parse_web_table("https://tradingeconomics.com/country-list/unemployment-rate?continent=europe")
 
 # let's call the function with completely other link with a table 
-parse_web_table("https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita", table_number = 2)
+# parse_web_table("https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita", table_number = 2)
 
 
 
