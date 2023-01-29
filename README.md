@@ -22,7 +22,7 @@ RStudio
 None at the moment.
 
 ## Contributions and Credits
-I am the only author of this blog, but if you wanna join - please let me know https://twitter.com/DimaD_DimaD
+If you want to join this team - please contact me https://twitter.com/DimaD_DimaD
 
 ## License
 
