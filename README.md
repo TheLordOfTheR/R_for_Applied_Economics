@@ -15,8 +15,7 @@ In this blog, we will explore some of the ways in which R can be used for applie
 We will look at how to use R for data analysis, statistical modeling, and economic forecasting. We will also discuss some of the challenges and opportunities associated with using R in an applied economic context.
 
 ## Dependencies
-R,
-RStudio
+None at the moment.
 
 ## Known Issues
 None at the moment.
