@@ -1,0 +1,48 @@
+---
+title: "R for Applied Economics Guide"
+author: "The Lord of the R"
+date: "08 02 2023"
+output: html_document
+---
+
+```{r, echo=FALSE, warning=FALSE}
+
+library(ggplot2)
+ggplot(mtcars, aes(x = mpg)) +
+  geom_histogram(binwidth = 2) +
+  ggtitle("Histogram of Miles Per Gallon")
+
+```
+
+# Introduction
+
+## Background
+
+### Literature Review
+
+## Methodology
+
+### Data Collection
+
+### Data Analysis
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+* Item 1
+* Item 2
+* Item 3
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+The results of our analysis show that **age is a significant predictor**
+of happiness, with older people reporting higher levels of happiness. 
+However, the effect of **income** on happiness is *less clear* and 
+requires further investigation.
+
+~~Previous studies have suggested a positive correlation between income and happiness, but our results do not support this conclusion.~~
+
+[Medium](https://medium.com)
+
+
