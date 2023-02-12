@@ -1,0 +1,40 @@
+---
+title: "R for Applied Economics"
+author: "Aragorn for 'The Lord of the R'"
+date: "12th of Februry"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(devtools)
+source("https://raw.githubusercontent.com/TheLordOfTheR/R_for_Applied_Economics/main/Part8.R")
+```
+
+# Overview of inflation in EU
+
+## Time Series for 1997-2023
+```{r section1, warning=FALSE, echo=FALSE}
+plot1
+```
+
+1. In 2021-22, Europe experienced higher than expected inflation, which varied significantly across countries.  
+2. Inflation in Europe has become more sensitive to commodity price shocks and backward-looking since the COVID-19 pandemic. 
+3. Conventional inflation models consistently underpredicted the inflation surge, but it is still uncertain if there has been a structural break in the inflation process.
+
+Source: [IMF Report](https://www.imf.org/en/Publications/WP/Issues/2023/02/10/The-2020-2022-Inflation-Surge-Across-Europe-A-Phillips-Curve-Based-Dissection-529693)
+
+### Country-level breakdown of inflation (Jan.2023)
+```{r section2, warning=FALSE, echo=FALSE}
+plot2
+```
+
+**Eurozone inflation eased to *8.5 percent* in January from *9.2 percent* in December**, which suggests that the price pressures have peaked and the headline inflation has decelerated for the third straight month. However, the technical troubles at Germany’s statistics office mean that the German component, which makes up a significant portion of the region, is based on model estimates only, creating uncertainty. Additionally, core inflation excluding energy and processed food accelerated to *7.0 percent* from *6.9 percent*, which is a key gauge for underlying inflation trends.
+
+The data is unlikely to change the European Central Bank's policy course, and ECB policymakers have stressed the importance of underlying price pressures in the current high inflation environment. Core inflation remains *too high and sticky*, so the ECB is expected to hike rates steadily into restrictive territory.
+
+Source: [Politico](https://www.politico.eu/article/eurozone-inflation-drops-to-8-5-percent-in-january/)
+
+
+[Do not forget to visit my Medium blog](https://medium.com/@the_lord_of_the_R)
