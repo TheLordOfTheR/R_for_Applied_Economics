@@ -107,3 +107,5 @@ plot3 <- ggplot(merged_df, aes(x = inflation, y = gdp_growth, color = unemployme
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5), 
         axis.title = element_text(size = 12, face = "bold")) +
   facet_wrap(~eu_country, ncol = 2)
+
+rm(clean_df, parsed_data, parsed_table, infl_df, gdp_df, unemp_df, raw_df)
