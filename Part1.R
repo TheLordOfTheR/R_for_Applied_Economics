@@ -37,5 +37,5 @@ names(clean_df) <- c("Period","Inflation")
 
 # chunk 6
 # output / loading
-plot(clean_df, type = "l")
+# plot(clean_df, type = "l")
 
