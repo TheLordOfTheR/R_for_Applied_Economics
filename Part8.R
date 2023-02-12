@@ -88,7 +88,7 @@ plot2 <- ggplot(merged_df, aes(x = inflation, y = gdp_growth, color = eu_country
   scale_size_continuous(name = "Unemployment", range = c(2, 7), guide = FALSE) +
   xlab("Inflation rate") +
   ylab("GDP growth rate") +
-  ggtitle("Scatter plot of EU and non-EU countries by Inflation vs GDP Growth in Europe (size by Unemployment)") +
+  ggtitle("Scatter plot of EU and non-EU countries by \n Inflation vs GDP Growth in Europe (size by Unemployment)") +
   theme(legend.title = element_text(size = 12, face = "bold"), 
         legend.text = element_text(size = 10), 
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5), 
@@ -101,7 +101,7 @@ plot3 <- ggplot(merged_df, aes(x = inflation, y = gdp_growth, color = unemployme
   scale_size_continuous(name = "Unemployment rate, %", range = c(2, 7), guide = FALSE) +
   xlab("Inflation rate") +
   ylab("GDP growth rate") +
-  ggtitle("Scatter plot of EU and non-EU countries by Inflation, GDP Growth, and Unemployment in Europe") +
+  ggtitle("Scatter plot of EU and non-EU countries by \n Inflation, GDP Growth, and Unemployment in Europe") +
   theme(legend.title = element_text(size = 12, face = "bold"), 
         legend.text = element_text(size = 10), 
         plot.title = element_text(size = 14, face = "bold", hjust = 0.5), 
