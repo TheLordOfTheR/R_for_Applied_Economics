@@ -10,10 +10,17 @@ dbWriteTable(con, "fct_inflation", df)
 # List all the tables available in the database
 dbListTables(con)
 
+# remove the fct_inflation
 dbRemoveTable(con, "fct_inflation")
 dbListTables(con)
 
+#restore the fct_inflation
+dbWriteTable(con, "fct_inflation", df)
+dbListTables(con)
+
+# first select query
 results <- dbGetQuery(con, "SELECT * FROM fct_inflation")
 glimpse(results)
 
+# close the session with the file
 dbDisconnect(con)
