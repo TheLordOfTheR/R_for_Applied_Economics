@@ -26,8 +26,8 @@ ask_chatgpt <- function(prompt) {
   
 }
 
-ask_chatgpt("Does it work?")
+#ask_chatgpt("Does it work?")
 
-ask_chatgpt("What could you say about factors, affecting inflation in various EU countries?")
+#ask_chatgpt("What could you say about factors, affecting inflation in various EU countries?")
 
-ask_chatgpt("But what else?")
+#ask_chatgpt("But what else?")
