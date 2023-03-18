@@ -21,6 +21,7 @@ ask_chatgpt <- function(prompt) {
       ))
     )
   )
+  # cat and trim the response to simplify the returned object structure
   cat(str_trim(content(response)$choices[[1]]$message$content))
   
 }
